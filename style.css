@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  top: 0;
+}
+body {
+  background-color: hsl(0deg 0% 89.41%);
+}
+/* Navbar section */
+.navbar_Section{
+  background-color: white;
+}
+.Navbar_open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Navbar section */
+
+/* Home section */
+.home_img {
+  object-fit: contain;
+  width: 98%;
+  height: 75%;
+  position: relative;
+  top: 4em;
+}
+.home_Section {
+  position: relative;
+}
+
+.home_Section:before {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 40%;
+  top: 0;
+  content: " ";
+}
+.img_before_div {
+  position: relative;
+}
+.img_before_div::before {
+  position: absolute;
+  background-color: hsl(356.83deg 81.89% 50.2%);
+  width: 40%;
+  height: 40%;
+  top: 0;
+  left: 44em;
+  content: " ";
+}
+.home_card_container {
+  background-color: white;
+  width: 36%;
+  padding: 2em;
+  position: relative;
+  top: -25em;
+  left: 15em;
+  margin-bottom: -8em;
+}
+.home_card_container h1 {
+  font-size: 3.4em;
+  font-weight: 770;
+}
+.home_card_container p {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 52.16%);
+}
+.home_card_container h6 {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  margin: 1em 0;
+}
+.home_card_container a {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  border-bottom: 2px solid hsl(0deg 0% 75.69%);
+}
+.home_card_btn {
+  border-radius: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+.home_card_btn:hover {
+  color: hsl(0deg 0% 74.9%);
+}
+/* Home section */
+
+/* Card section */
+.card_section_cards {
+  margin-top: 4em;
+}
+.card_section_row {
+  position: relative;
+  top: -12em;
+}
+.card_section_a {
+  color: black;
+  font-weight: 550;
+  font-size: 1.2em;
+  border-bottom: 2px solid black;
+}
+.card_section_a:hover {
+  color: hsl(356.83deg 81.89% 50.2%);
+  border-bottom: 2px solid hsl(356.83deg 81.89% 50.2%);
+  text-decoration: none;
+}
+.Card_Section_div {
+  background-color: white;
+  padding: 2em;
+  text-align: center;
+}
+.Card_Section_div h4 {
+  font-weight: 700;
+}
+.Card_Section_div p {
+  color: hsl(0deg 0% 61.96%);
+  font-size: 1em;
+}
+.Card_section_icon {
+  border-radius: 100%;
+  width: 2.4em;
+  height: 2.4em;
+  font-size: 1.6em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(356.83deg 81.89% 50.2%);
+  color: white;
+}
+.card_section_icon_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+.Card_section {
+  background-color: hsl(356.83deg 81.89% 50.2%);
+}
+/* Card section */
+
+/* Card Container2  */
+
+.Card_container2_heading h1 {
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+.Card_container2_heading p {
+  font-weight: 550;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  text-align: center;
+  color: hsl(4.48deg 100% 86.86%);
+}
+.Card_container2_Card_p {
+  color: hsl(0deg 0% 53.73%);
+}
+.card_container_div1 {
+  text-align: center;
+  margin: 1em 0;
+}
+/* Card Container2  */
+
+/* Card Container3 */
+.Card_container3_row {
+  margin-top: 6em;
+}
+.Card_container3_div2 {
+  background-color: white;
+  padding: 2em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.Card_container3_div2 h1 {
+  margin: 0.6em 0;
+  font-size: 3.4em;
+  font-weight: 770;
+}
+.Card_container3_div2 p {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 52.16%);
+}
+.Card_container3_div2 h6 {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  margin: 1em 0;
+}
+.Card_container3_div2 a {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  border-bottom: 2px solid hsl(0deg 0% 75.69%);
+}
+.Card_container3_div2_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+}
+.Card_container3_div2_btn {
+  width: 10em;
+  margin-top: 1em;
+  border-radius: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+.Card_container3_div2_btn:hover {
+  color: hsl(0deg 0% 74.9%);
+}
+.Card_container3_img {
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+  width: 32em;
+  height: 100%;
+
+  margin-top: 5em;
+}
+
+/* Card Container3 */
+
+/* Values Card heading */
+.values_container {
+  margin-top: 8em;
+}
+.values_card_heading h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3em;
+  margin: 1em 0;
+}
+.values_card_row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.values_card_row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.values_cards {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 1.4em;
+  text-align: center;
+}
+.values_cards h4 {
+  color: hsl(350.28deg 63.39% 43.92%);
+  font-size: 1.7em;
+  font-weight: 700;
+}
+.values_cards p {
+  color: hsl(0, 0%, 68%);
+  font-size: 1.1em;
+  font-weight: 550;
+  margin-top: 0.8em;
+}
+/* Values Card heading */
+
+/* carreer skills section */
+.carrer_skill_section {
+  background: url("images/489168.jpg.crdownload.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+}
+.carrer_skill_section::before {
+  position: absolute;
+  background: #0006;
+  width: 100%;
+  height: 100%;
+  content: " ";
+}
+
+.carrer_skill_card_container {
+  background-color: white;
+  padding: 1.6em;
+}
+.carrer_skill_card_container h1 {
+  font-size: 3.4em;
+  font-weight: 770;
+}
+.carrer_skill_card_container p {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 52.16%);
+}
+.carrer_skill_card_container h6 {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  margin: 1em 0;
+}
+.carrer_skill_card_container a {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  border-bottom: 2px solid hsl(0deg 0% 75.69%);
+}
+.carrer_skill_row {
+  display: flex;
+  justify-content: end;
+}
+.carrer_skill_card_btn {
+  width: 10em;
+  margin-top: 1em;
+  border-radius: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+.carrer_skill_card_btn:hover {
+  color: hsl(0deg 0% 74.9%);
+}
+/* carreer skills section */
+
+/* Best Institution */
+.best_institution_section {
+  position: relative;
+  padding-bottom: 4em;
+}
+.best_institution_section::before {
+  position: absolute;
+  width: 100%;
+  height: 24%;
+  background-color: white;
+  bottom: 0;
+  content: " ";
+}
+.best_institution_img_div::before {
+  position: absolute;
+  width: 30%;
+  height: 158%;
+  left: 40em;
+  top: 6em;
+  background-color: hsl(356.83deg 81.89% 50.2%);
+  content: " ";
+}
+.best_institution_img {
+  object-fit: cover;
+  width: 50em;
+  height: 38em;
+  position: relative;
+}
+.best_institution_img_row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -10em;
+  width: 94%;
+}
+.best_institution_img2 {
+  object-fit: cover;
+  width: 30em;
+  height: 34em;
+}
+
+.best_institution_card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: white;
+  margin: 1em 0;
+  width: 42em;
+  padding: 2em;
+  position: relative;
+  top: 13em;
+  right: 0.8em;
+}
+.best_institution_card h1 {
+  font-size: 2.2em;
+  font-weight: 770;
+}
+.best_institution_card p {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 52.16%);
+}
+.best_institution_card h6 {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  margin: 1em 0;
+}
+.best_institution_card a {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: hsl(0deg 0% 74.9%);
+  border-bottom: 2px solid hsl(0deg 0% 75.69%);
+}
+.best_institution_btn {
+  border-radius: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  margin: 1em 0;
+  padding: 1em;
+}
+.best_institution_btn:hover {
+  color: hsl(0deg 0% 74.9%);
+}
+/* Best Institution */
+/* Footer Section */
+.footer_row {
+  padding: 8em 0em 4em 0em;
+}
+
+.footer_section {
+  background-color: hsl(0deg 0% 0%);
+  color: hsl(0deg 0% 74.9%);
+  text-align: center;
+}
+.footer_heading {
+  font-weight: 700;
+  font-size: 3em;
+}
+.footer_text {
+  font-size: 1.6em;
+  padding: 1em 9em 0em 9em;
+}
+.footer_search_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em 0;
+}
+.footer_search_container input {
+  width: 32%;
+  height: 3em;
+  padding: 16px;
+  border: 0;
+}
+.footer_search_container button {
+  width: 14%;
+  height: 3em;
+  border: 0;
+  border-radius: 0;
+  background-color: hsl(357.65deg 80.31% 49.8%);
+  color: hsl(0, 2%, 88%);
+}
+.footer_span {
+  padding: 1em 20em 0em 20em;
+  font-size: 1em;
+  font-weight: 550;
+}
+
+.footer_info_divs {
+  padding: 2em 0;
+}
+.footer_info_divs p {
+  margin-bottom: 0;
+  font-weight: 550;
+  font-size: 1.2em;
+}
+.footer_info_divs span {
+  color: hsl(357.65deg 80.31% 49.8%);
+  font-size: 1.2em;
+  font-weight: 550;
+}
+/* Footer Section */
+
+/* End footer section */
+.End_footer {
+  background-color: hsl(0deg 0% 19.61%);
+  color: hsl(0deg 0% 66.27%);
+  padding: 1.4em 0;
+  text-align: center;
+}
+/* End footer section */

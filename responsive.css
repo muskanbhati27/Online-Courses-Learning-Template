@@ -1,0 +1,361 @@
+@media (max-width: 1199px) {
+  /* Home section */
+  .home_img {
+    top: 3em;
+  }
+
+  .home_Section:before {
+    height: 36%;
+  }
+
+  .img_before_div::before {
+    left: 28em;
+  }
+  .home_card_container {
+    width: 50%;
+    margin-bottom: 0em;
+    top: -14em;
+    left: 10em;
+  }
+
+  /* Home section */
+  /* values container */
+  .values_container{
+    margin-top: 0em;
+  }
+  /* values container */
+  /* Card section */
+  .card_section_row {
+    top: -12em;
+  }
+  .Card_container3_img {
+    width: 100%;
+
+    margin-top: 0em;
+  }
+  .Card_container3_div2_content {
+    justify-content: center;
+    width: 100%;
+  }
+  .Card_container3_div2 {
+    background-color: white;
+    padding: 2em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+  /* Card section */
+  /* carreer skills section */
+
+  .carrer_skill_section {
+    height: 50vh;
+  }
+  /* carreer skills section */
+
+  /* Best Institution */
+  .best_institution_section {
+    padding-bottom: 0em;
+  }
+  .best_institution_section::before {
+    height: 20%;
+  }
+  .best_institution_img_div::before {
+    width: 30%;
+    height: 200%;
+    left: 26em;
+    top: 1em;
+  }
+  .best_institution_img {
+    width: 43.6em;
+    height: 38em;
+  }
+  .best_institution_img_row2 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: end;
+    top: -4em;
+    left: 2em;
+    width: 94%;
+  }
+  .best_institution_img2 {
+    width: 30em;
+    height: 34em;
+  }
+
+  .best_institution_card {
+    margin: 1em 0;
+
+    top: 0em;
+    right: 0.8em;
+  }
+
+  /* Best Institution */
+  /* Footer Section */
+  .footer_row {
+    padding: 6em 0em 3em 0em;
+  }
+
+  .footer_text {
+    padding: 1em 2em 0em 2em;
+  }
+  .footer_search_container {
+    padding: 2em 0;
+  }
+  .footer_search_container input {
+    width: 50%;
+  }
+  .footer_search_container button {
+    width: 20%;
+  }
+  .footer_span {
+    padding: 1em 4em 0em 4em;
+  }
+
+  /* Footer Section */
+}
+
+@media (max-width: 767px) {
+  /* Home section */
+  .home_img {
+    width: 100%;
+    height: 89%;
+
+    top: 4em;
+  }
+
+  .home_Section:before {
+    width: 100%;
+    height: 40%;
+  }
+  .img_before_div::before {
+    width: 50%;
+    height: 50%;
+    top: 2em;
+    left: 13em;
+  }
+  .home_card_container {
+    width: 80%;
+    margin-bottom: -1em;
+    top: -24px;
+    left: 2em;
+}
+  .home_card_container h1 {
+    font-size: 2em;
+  }
+  .home_card_container p {
+    font-size: 1em;
+  }
+  .home_card_container h6 {
+    font-size: 1.1em;
+
+    margin: 0.8em 0;
+  }
+
+  .home_card_btn {
+    padding: 0.8em;
+  }
+  /* Home section */
+  /* Card section */
+
+  .card_section_row {
+    top: -0em;
+  }
+
+  .Card_Section_div {
+    margin-top: 1em;
+  }
+
+  .Card_section_icon {
+    width: 2.6em;
+    height: 2.6em;
+    font-size: 1.6em;
+  }
+  .card_section_cards {
+    margin-top: 0em;
+  }
+
+  /* Card section */
+
+  /* Card Container3 */
+  .Card_container3_row {
+    margin-top: 6em;
+  }
+  .Card_container3_div2 {
+    background-color: white;
+    padding: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  .Card_container3_div2 h1 {
+    margin: 0.6em 0;
+    font-size: 3.4em;
+    font-weight: 770;
+  }
+  .Card_container3_div2 p {
+    font-size: 1.2em;
+    font-weight: 550;
+    color: hsl(0deg 0% 52.16%);
+  }
+  .Card_container3_div2 h6 {
+    font-size: 1.2em;
+    font-weight: 550;
+    color: hsl(0deg 0% 74.9%);
+    margin: 1em 0;
+  }
+  .Card_container3_div2 a {
+    font-size: 1.2em;
+    font-weight: 550;
+    color: hsl(0deg 0% 74.9%);
+    border-bottom: 2px solid hsl(0deg 0% 75.69%);
+  }
+  .Card_container3_div2_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 70%;
+  }
+  .Card_container3_div2_btn {
+    width: 10em;
+    margin: 1em 0;
+    border-radius: 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .Card_container3_div2_btn:hover {
+    color: hsl(0deg 0% 74.9%);
+  }
+  .Card_container3_img {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    margin-top: 0em;
+  }
+
+  /* Card Container3 */
+
+  /* values cards section */
+  .values_cards {
+    background-color: white;
+    padding: 1.4em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  .values_card_row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+  /* values cards section */
+
+  /* carreer skills section */
+
+  .carrer_skill_section {
+    height: 70vh;
+  }
+  .carrer_skill_card_container {
+    padding: 1.1em;
+  }
+  .carrer_skill_card_container h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  /* carreer skills section */
+
+  /* Best Institution */
+  .best_institution_section {
+    padding-bottom: 0em;
+  }
+  .best_institution_section::before {
+    height: 24%;
+  }
+  .best_institution_img_div::before {
+    width: 30%;
+    height: 200%;
+    left: 16em;
+    top: 1em;
+  }
+  .best_institution_img {
+    object-fit: contain;
+    width: 24em;
+    height: 20em;
+  }
+  .best_institution_img_row2 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    top: -4em;
+    left: 2em;
+    width: 94%;
+  }
+  .best_institution_img2 {
+    width: 18em;
+    height: 28em;
+    object-fit: contain;
+  }
+
+  .best_institution_card {
+    margin: 0em 0;
+    width: 20em;
+    top: -2em;
+    right: 0em;
+  }
+
+  .best_institution_card h1 {
+    font-size: 1.8em;
+  }
+  .best_institution_card p {
+    font-size: 1em;
+  }
+
+  /* Best Institution */
+
+  /* Footer Section */
+  .footer_row {
+    padding: 1em 0em 1em 0em;
+  }
+  .footer_heading {
+    font-size: 2em;
+  }
+  .footer_text {
+    padding: 0.2em 0;
+  }
+  .footer_search_container {
+    padding: 1em 0;
+  }
+  .footer_search_container input {
+    width: 70%;
+  }
+  .footer_search_container button {
+    width: 25%;
+  }
+  .footer_span {
+    padding: 1em 1em 0em 1em;
+  }
+  .footer_info_divs {
+    padding: 1.2em 0;
+  }
+
+  /* Footer Section */
+}
+@media (max-width: 375px) {
+  .img_before_div::before {
+    width: 50%;
+    height: 50%;
+    top: 2em;
+    left: 11.6em;
+  }
+}
